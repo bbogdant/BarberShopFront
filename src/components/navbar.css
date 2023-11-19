@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #111;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link i {
+    margin-right: 8px;
+  }
+  
+  .nav-link:hover {
+    color: #00aaff; /* Change the color to your preferred hover color */
+    cursor: pointer;
+  }

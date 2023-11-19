@@ -1,0 +1,78 @@
+/* App.css */
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Navbar.css */
+  .navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Home.css */
+  .home {
+    margin-top: 50px;
+  }
+  
+  /* Footer.css */
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* NewBarber.css */
+  .new-barber {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .new-barber h2 {
+    margin-bottom: 20px;
+  }
+  
+  .new-barber form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .new-barber label {
+    margin-bottom: 10px;
+  }
+  
+  .new-barber input {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .new-barber button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-barber button:hover {
+    background-color: #555;
+  }
